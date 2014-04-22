@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WishingTree.WebUI", "WebUI\WishingTree.WebUI.csproj", "{34FC32D8-8B35-4BD8-8208-E300C1EA393A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WishingTree.Model", "WishingTree.Model\WishingTree.Model.csproj", "{3AB3D733-838D-4649-86D6-9DFFD35E69D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WishingTree.Business", "WishingTree.Business\WishingTree.Business.csproj", "{510873CA-771C-4A31-890D-C8E61F90D7C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34FC32D8-8B35-4BD8-8208-E300C1EA393A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FC32D8-8B35-4BD8-8208-E300C1EA393A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FC32D8-8B35-4BD8-8208-E300C1EA393A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FC32D8-8B35-4BD8-8208-E300C1EA393A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB3D733-838D-4649-86D6-9DFFD35E69D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB3D733-838D-4649-86D6-9DFFD35E69D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB3D733-838D-4649-86D6-9DFFD35E69D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB3D733-838D-4649-86D6-9DFFD35E69D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{510873CA-771C-4A31-890D-C8E61F90D7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510873CA-771C-4A31-890D-C8E61F90D7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510873CA-771C-4A31-890D-C8E61F90D7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510873CA-771C-4A31-890D-C8E61F90D7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
