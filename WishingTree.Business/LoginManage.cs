@@ -25,7 +25,7 @@ namespace WishingTree.Business
 
             pa = oper.CreateParameter();
             pa.ParameterName = "@PassWorld";
-            pa.Value = EncryptPassword(passworld);
+            pa.Value = DES.Encrypt(passworld);
             param.Add(pa);
 
             DataTable dt = oper.QueryDt("select * from User where (NikeName=@UserName or Email=@UserName) and PassWorld=@PassWorld",param.ToArray());
@@ -76,12 +76,6 @@ namespace WishingTree.Business
         private static string GetLoginId()
         {
             return Convert.ToString(HttpContext.Current.Session[UserKey]);
-        }
-
-        public static string EncryptPassword(string clearPassword)
-        {
-            return FormsAuthentication.HashPasswordForStoringInConfigFile(clearPassword, "MD5").ToUpper();
-            //加密后的密码在数据表中存储时是以大写方式存储的
         }
 
     }
